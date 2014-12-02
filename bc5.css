@@ -113,11 +113,17 @@ a {
 }
 
 
+ul {
+    list-style:none;
+    text-align: center;
+}
 
 .icon {
     width: 35px;
     margin: 30px auto;
-    
+   
+    display: inline-block;
+
     background-color: #777;
     text-align: center;
 }
@@ -126,7 +132,7 @@ a {
     background-color: #444;
 }
 
-#mothership > .icon a {
+.icon a {
     color: #fff;
     
     display: block;
