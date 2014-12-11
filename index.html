@@ -2,48 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
+<!--    <link rel="stylesheet" href="bc5.css"/>-->
     <title>Ben Cook</title>
 
+    <meta name="viewport" content="user-scalable=no,width=device-width" />
     <link rel="icon" type="image/gif" href="/favicon.gif"/>
     
-    <link rel="stylesheet" href="bc5.css"/>
-    <meta name="viewport" content="user-scalable=no,width=device-width" />
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400|Lora:400,400italic' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: Lora, Georgia, serif;
+            width: 500px;
+            margin: 0 auto;
+        }
+        
+        header {
+            padding: 1.2em .6em 0;
+            width: 100%;
+            background-color: rgb(40,110,255);
+        }
+        h1 {
+            font-family: Helvetica, sans-serif;
+            font-size: 2.2em;
+            
+            margin: 0 auto;
+
+            color: white;
+        }
+        
+        
+        div {
+            padding: 0 .6em;
+        }
+        
+        
+        p, ul {
+            font-style: italic;
+        }
+        
+        p {
+            font-size: 1.25em;
+            line-height: 1.4em;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        li {
+            display: inline-block;
+            margin-right: .6em;
+        }
+        li:last-of-type {
+            margin-right: 0;
+        }
+        a, a:visited {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        
+        @media(max-width:500px) {
+            body {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-
-    <div id="banner">
+    
+    <header>
         <h1>ben cook</h1>
-        <p class="mail"><a href="mailto:b@bencook.ca">b@bencook.ca</a></p>
-    </div>
-
-
-    <p id="hi">hello.</p>
-
-    <div id="mothership">
-        <div class="orange">
-            <p>Looks like this:</p>
-        </div>
-        <img src="/20140625-_MG_4920-Edit.jpg"/>
-
-        <div class="red">
-            <p>Studies computer science at UBC in Vancouver.</p>
-        </div>
-        
-        <div class="purple">
-            <p><a href="photos">Makes pictures.</a></p>
-        </div>
-        
-        <div class="blue">
-            <p>Created <a href="http://gnomenclature.bencook.ca">gnomenclature</a>.</p>
-        </div>
-        
+    </header>
+    
+    <div>
+        <p>Web Developer in Vancouver. Studying interesting things at UBC.</p>
+    
         <ul>
-            <li class="icon">
-                <a href="http://ca.linkedin.com/in/thebencook">in</a>
-            </li>
-            <li class="icon">
-                <a href="https://github.com/blx">gh</a>
-            </li>
+            <li><a href="https://github.com/blx">github</a></li>
+            <li><a href="https://ca.linkedin.com/in/thebencook">linkedin</a></li>
+            <li><a href="mailto:b@bencook.ca">b@bencook.ca</a></li>
         </ul>
     </div>
 
